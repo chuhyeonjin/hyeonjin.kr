@@ -1,0 +1,21 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+# intellij IDEA files
+.idea/
+*.iml
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Ignore files for yarn berry
+.yarn/
+.pnp.*
