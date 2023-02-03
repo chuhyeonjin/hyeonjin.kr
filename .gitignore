@@ -1,5 +1,5 @@
 .DS_Store
-node_modules
+/node_modules
 /build
 /.svelte-kit
 /package
@@ -14,10 +14,12 @@ vite.config.ts.timestamp-*
 *.iml
 
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-.pnp.*
 .yarn/*
+!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+!.yarn/unplugged
