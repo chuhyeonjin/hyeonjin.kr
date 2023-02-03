@@ -19,3 +19,5 @@ yarn.lock
 # Ignore files for yarn berry
 .yarn/
 .pnp.*
+
+.vercel
