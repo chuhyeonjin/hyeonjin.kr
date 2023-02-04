@@ -6,6 +6,11 @@ const config: UserConfig = {
   test: {
     include: ['src/**/*.{test,spec}.{js,ts}'],
   },
+  server: {
+    fs: {
+      allow: ['.yarn'],
+    },
+  },
 };
 
 export default config;
