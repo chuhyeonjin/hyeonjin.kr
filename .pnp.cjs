@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sveltejs/kit", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:1.3.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:5.50.0"],\
             ["@typescript-eslint/parser", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:5.50.0"],\
+            ["@vercel/analytics", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:0.1.8"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-config-prettier", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:8.6.0"],\
             ["eslint-plugin-svelte3", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:4.0.0"],\
@@ -806,6 +807,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/visitor-keys", "npm:5.50.0"],\
             ["@typescript-eslint/types", "npm:5.50.0"],\
             ["eslint-visitor-keys", "npm:3.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vercel/analytics", [\
+        ["npm:0.1.8", {\
+          "packageLocation": "./.yarn/cache/@vercel-analytics-npm-0.1.8-76bdbee610-e837f66494.zip/node_modules/@vercel/analytics/",\
+          "packageDependencies": [\
+            ["@vercel/analytics", "npm:0.1.8"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:0.1.8", {\
+          "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-6071375930/0/cache/@vercel-analytics-npm-0.1.8-76bdbee610-e837f66494.zip/node_modules/@vercel/analytics/",\
+          "packageDependencies": [\
+            ["@vercel/analytics", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:0.1.8"],\
+            ["@types/react", null],\
+            ["react", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2078,6 +2101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sveltejs/kit", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:1.3.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:5.50.0"],\
             ["@typescript-eslint/parser", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:5.50.0"],\
+            ["@vercel/analytics", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:0.1.8"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-config-prettier", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:8.6.0"],\
             ["eslint-plugin-svelte3", "virtual:e09641a393206a0be1110b8f1a82669ae0a7391056e55e5a0ac0504b5adcdc94c438e3bb84d30dcef1507f29213b50fed8550652d615294057c3867d09008fc3#npm:4.0.0"],\

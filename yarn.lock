@@ -558,6 +558,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@vercel/analytics@npm:0.1.8"
+  peerDependencies:
+    react: ^16.8||^17||^18
+  checksum: e837f66494372d557e32383e7ab7192a40da242a16d4f650f61b6e0c5ea282b2a37120ec125d3c5d5e3228c3d1957f48c93d299b4b466169e9d7a853a8014c3a
+  languageName: node
+  linkType: hard
+
 "@vercel/nft@npm:^0.22.1":
   version: 0.22.6
   resolution: "@vercel/nft@npm:0.22.6"
@@ -1685,6 +1694,7 @@ __metadata:
     "@sveltejs/kit": ^1.0.0
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
+    "@vercel/analytics": ^0.1.8
     eslint: ^8.28.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-svelte3: ^4.0.0
