@@ -32,6 +32,6 @@
   "type": "module",
   "packageManager": "pnpm@8.5.1",
   "dependencies": {
-    "@vercel/analytics": "^0.1.8"
+    "@vercel/analytics": "^1.0.1"
   }
 }
