@@ -16,8 +16,4 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 
-# Ignore files for yarn berry
-.yarn/
-.pnp.*
-
 .vercel
